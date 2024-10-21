@@ -121,6 +121,7 @@ a {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -133,17 +134,20 @@ a {
   animation: fadeIn2 6s ease-out infinite;
   animation-delay: 1s;
 }
+
 @keyframes fadeIn2 {
   0% {
     transform: scale(0.1);
     opacity: 1;
     padding: 20px;
   }
+
   50% {
     transform: scale(1.2);
     opacity: 1;
     padding: 20px;
   }
+
   100% {
     transform: scale(1);
     opacity: 1;
@@ -157,6 +161,7 @@ a {
   top: 70%;
   position: absolute;
 }
+
 .container-box {
   top: 90%;
   left: 10px;
@@ -184,23 +189,25 @@ a {
 }
 
 /* =================discover=========== */
-.dis-text{
+.dis-text {
   background-color: black;
   text-align: center;
   padding: 10px;
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   border-radius: 20px;
 }
 
 /* ==============POPULAR============= */
-.img-transition{
+.img-transition {
   transition: transform 3s forward;
 }
-.img-transition:hover{
+
+.img-transition:hover {
   transform: scale(0.5);
 }
+
 /* ========footer===== */
-.text-footer{
+.text-footer {
   background-color: rgba(17, 14, 14, 0.644);
   padding: 20px;
   border-radius: 30px;
@@ -208,19 +215,96 @@ a {
 }
 
 /* ===========================================================DEAL -SECTION======================================== */
-.deal-section{
+.deal-section {
   background-image: url(images/banner-04.jpg);
-  background-position:center ;
+  background-position: center;
   top: 0;
   width: 100%;
   height: 100vh;
 }
-.text-deals{
+
+.text-deals {
   position: absolute;
   top: 40%;
-  left: 20%;
+  left: 25%;
   text-align: center;
 }
-.text-deals{
-  font-size: 70px;
+
+.text-deals h1 {
+  font-size: 60px;
+}
+
+/* ==========search-section box============ */
+
+.search-section {
+  width: 85%;
+  border-radius: 0px 0px 30px 30px;
+  margin-left: 70px;
+
+}
+
+/* =====================offer -box=============== */
+
+.deal-offer-text {
+  position: absolute;
+  right: 6%;
+  background-color: rgb(1, 15, 27);
+  padding: 20px;
+  border-radius: 10px;
+  width: 120%;
+  text-align: center;
+
+
+}
+
+.offer-color {
+  transition: transform 4s ease-in-out;
+  /* Adjust duration and easing */
+}
+
+.offer-color:hover {
+  transform: scale(0.4);
+}
+
+/* ==================================================RESERVATION HTML============================================== */
+
+.div {
+  background-color: rgb(1, 15, 27);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+.div h2 {
+  font-size: 15px;
+}
+
+/* --------form------------  */
+form {
+  background-color: rgb(1, 9, 16);
+  padding: 50px;
+  border-radius: 20px;
+
+}
+
+.form-group {
+  padding: 5px;
+
+}
+
+.form-group input {
+  background-color: rgb(2, 8, 21);
+  border-radius: 90px;
+}
+
+.form-group select {
+  background-color: rgb(2, 8, 21);
+  border-radius: 90px;
+}
+
+.form-group textarea {
+  background-color: rgb(2, 8, 21);
+
 }
